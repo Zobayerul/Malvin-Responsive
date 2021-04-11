@@ -23,6 +23,29 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
     max-width: 1140px;
     margin: 0 auto;
 }
+/* Preloader Css */
+#preloader{
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+#status{
+	position: absolute;
+	background-image: url('./img/pp.gif');
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	
+}
+/* Preloader Css */
 /* Header Are Css Start */
 .main-header{
     height: 75px;
